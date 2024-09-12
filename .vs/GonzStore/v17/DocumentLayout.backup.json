@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pc\\source\\repos\\GonzStore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1FADD729-5273-460A-807E-4DD28375480F}|GonzStore\\GonzStore.csproj|c:\\users\\pc\\source\\repos\\gonzstore\\gonzstore\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1FADD729-5273-460A-807E-4DD28375480F}|GonzStore\\GonzStore.csproj|solutionrelative:gonzstore\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FADD729-5273-460A-807E-4DD28375480F}|GonzStore\\GonzStore.csproj|c:\\users\\pc\\source\\repos\\gonzstore\\gonzstore\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FADD729-5273-460A-807E-4DD28375480F}|GonzStore\\GonzStore.csproj|solutionrelative:gonzstore\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FADD729-5273-460A-807E-4DD28375480F}|GonzStore\\GonzStore.csproj|c:\\users\\pc\\source\\repos\\gonzstore\\gonzstore\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1FADD729-5273-460A-807E-4DD28375480F}|GonzStore\\GonzStore.csproj|solutionrelative:gonzstore\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FADD729-5273-460A-807E-4DD28375480F}|GonzStore\\GonzStore.csproj|c:\\users\\pc\\source\\repos\\gonzstore\\gonzstore\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1FADD729-5273-460A-807E-4DD28375480F}|GonzStore\\GonzStore.csproj|solutionrelative:gonzstore\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\GonzStore\\GonzStore\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "GonzStore\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\GonzStore\\GonzStore\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "GonzStore\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-12T02:37:51.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\GonzStore\\GonzStore\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "GonzStore\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\GonzStore\\GonzStore\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "GonzStore\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-12T02:37:49.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\GonzStore\\GonzStore\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "GonzStore\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\GonzStore\\GonzStore\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "GonzStore\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-12T02:37:16.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\GonzStore\\GonzStore\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "GonzStore\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\GonzStore\\GonzStore\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "GonzStore\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T02:36:10.041Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
