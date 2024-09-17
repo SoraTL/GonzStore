@@ -13,11 +13,9 @@ namespace GonzStore.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult Search() 
         {
-            ViewBag.Message = "Your application description page.";
-
-            return View();
+            return View(); 
         }
 
         public ActionResult Contact()
@@ -25,6 +23,32 @@ namespace GonzStore.Controllers
             ViewBag.Message = "Your contact page.";
 
             return View();
+        }
+
+        public ActionResult Product()
+        {
+            return View();
+        }
+
+
+
+        public ActionResult GetEmployee(int Id)
+        {
+            var employees = new[] {
+                new { Id = 1, Name = "Justin", Salary = 1000 },
+                new { Id = 1, Name = "Justin", Salary = 1000 },
+                new { Id = 1, Name = "Justin", Salary = 1000 },
+                new { Id = 1, Name = "Justin", Salary = 1000 }
+            };
+
+            string matchName = null;
+            foreach (var employee in employees)
+            {
+                if(employee.Id == Id)
+                    matchName = employee.Name;
+            }
+
+            return new ContentResult() { Content = matchName, ContentType = "text/plain" };
         }
     }
 }
