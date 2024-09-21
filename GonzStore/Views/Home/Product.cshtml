@@ -3,5 +3,21 @@
     ViewBag.Title = "Product";
 }
 
-<h2>Product</h2>
+<ul class="product-list">
+    @foreach (var product in Model.Products)
+    {
+        <li class="product-item">
+            <div class="product-details">
+                <h3>@product.Name</h3>
+                <p>Price: @product.Price.ToString("C")</p>
+                <p>Description: @product.Description</p>
+            </div>
+            <!-- Nút thêm vào giỏ hàng -->
+            <form action="/Cart/AddToCart" method="post">
+                <input type="hidden" name="productId" value="@product.Id" />
+                <button type="submit" class="btn btn-primary">Add to Cart</button>
+            </form>
+        </li>
+    }
+</ul>
 
