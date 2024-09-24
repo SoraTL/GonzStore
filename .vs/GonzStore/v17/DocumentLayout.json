@@ -3,11 +3,27 @@
   "WorkspaceRootPath": "C:\\Users\\pc\\OneDrive\\Desktop\\Work(N)\\GonzStore\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1FADD729-5273-460A-807E-4DD28375480F}|GonzStore\\GonzStore.csproj|C:\\Users\\pc\\OneDrive\\Desktop\\Work(N)\\GonzStore\\gonzstore\\gonzdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FADD729-5273-460A-807E-4DD28375480F}|GonzStore\\GonzStore.csproj|solutionrelative:gonzstore\\gonzdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FADD729-5273-460A-807E-4DD28375480F}|GonzStore\\GonzStore.csproj|c:\\users\\pc\\onedrive\\desktop\\work(n)\\gonzstore\\gonzstore\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{1FADD729-5273-460A-807E-4DD28375480F}|GonzStore\\GonzStore.csproj|solutionrelative:gonzstore\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FADD729-5273-460A-807E-4DD28375480F}|GonzStore\\GonzStore.csproj|c:\\users\\pc\\onedrive\\desktop\\work(n)\\gonzstore\\gonzstore\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FADD729-5273-460A-807E-4DD28375480F}|GonzStore\\GonzStore.csproj|solutionrelative:gonzstore\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FADD729-5273-460A-807E-4DD28375480F}|GonzStore\\GonzStore.csproj|c:\\users\\pc\\onedrive\\desktop\\work(n)\\gonzstore\\gonzstore\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FADD729-5273-460A-807E-4DD28375480F}|GonzStore\\GonzStore.csproj|solutionrelative:gonzstore\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1FADD729-5273-460A-807E-4DD28375480F}|GonzStore\\GonzStore.csproj|C:\\Users\\pc\\OneDrive\\Desktop\\Work(N)\\GonzStore\\gonzstore\\views\\home\\product.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1FADD729-5273-460A-807E-4DD28375480F}|GonzStore\\GonzStore.csproj|solutionrelative:gonzstore\\views\\home\\product.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1FADD729-5273-460A-807E-4DD28375480F}|GonzStore\\GonzStore.csproj|c:\\users\\pc\\onedrive\\desktop\\work(n)\\gonzstore\\gonzstore\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{1FADD729-5273-460A-807E-4DD28375480F}|GonzStore\\GonzStore.csproj|C:\\Users\\pc\\OneDrive\\Desktop\\Work(N)\\GonzStore\\gonzstore\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{1FADD729-5273-460A-807E-4DD28375480F}|GonzStore\\GonzStore.csproj|solutionrelative:gonzstore\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
@@ -19,7 +35,7 @@
       "RelativeMoniker": "D:0:0:{1FADD729-5273-460A-807E-4DD28375480F}|GonzStore\\GonzStore.csproj|solutionrelative:gonzstore\\views\\home\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1FADD729-5273-460A-807E-4DD28375480F}|GonzStore\\GonzStore.csproj|c:\\users\\pc\\onedrive\\desktop\\work(n)\\gonzstore\\gonzstore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{1FADD729-5273-460A-807E-4DD28375480F}|GonzStore\\GonzStore.csproj|C:\\Users\\pc\\OneDrive\\Desktop\\Work(N)\\GonzStore\\gonzstore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1FADD729-5273-460A-807E-4DD28375480F}|GonzStore\\GonzStore.csproj|solutionrelative:gonzstore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -34,11 +50,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Desktop\\Work(N)\\GonzStore\\GonzStore\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "GonzStore\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Desktop\\Work(N)\\GonzStore\\GonzStore\\Models\\Customer.cs",
+              "RelativeToolTip": "GonzStore\\Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T05:35:13.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Desktop\\Work(N)\\GonzStore\\GonzStore\\Web.config",
+              "RelativeDocumentMoniker": "GonzStore\\Web.config",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Desktop\\Work(N)\\GonzStore\\GonzStore\\Web.config",
+              "RelativeToolTip": "GonzStore\\Web.config",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAD8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-09-24T05:15:57.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Desktop\\Work(N)\\GonzStore\\GonzStore\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "GonzStore\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Desktop\\Work(N)\\GonzStore\\GonzStore\\Models\\Product.cs",
+              "RelativeToolTip": "GonzStore\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T22:31:51.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GonzDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Desktop\\Work(N)\\GonzStore\\GonzStore\\GonzDBContext.cs",
+              "RelativeDocumentMoniker": "GonzStore\\GonzDBContext.cs",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Desktop\\Work(N)\\GonzStore\\GonzStore\\GonzDBContext.cs",
+              "RelativeToolTip": "GonzStore\\GonzDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T22:32:26.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Site.css",
               "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Desktop\\Work(N)\\GonzStore\\GonzStore\\Content\\Site.css",
               "RelativeDocumentMoniker": "GonzStore\\Content\\Site.css",
@@ -51,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Contact.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Desktop\\Work(N)\\GonzStore\\GonzStore\\Views\\Home\\Contact.cshtml",
               "RelativeDocumentMoniker": "GonzStore\\Views\\Home\\Contact.cshtml",
@@ -64,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Search.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Desktop\\Work(N)\\GonzStore\\GonzStore\\Views\\Home\\Search.cshtml",
               "RelativeDocumentMoniker": "GonzStore\\Views\\Home\\Search.cshtml",
@@ -77,7 +145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Desktop\\Work(N)\\GonzStore\\GonzStore\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "GonzStore\\Views\\Shared\\_Layout.cshtml",
@@ -90,20 +158,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Product.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Desktop\\Work(N)\\GonzStore\\GonzStore\\Views\\Home\\Product.cshtml",
               "RelativeDocumentMoniker": "GonzStore\\Views\\Home\\Product.cshtml",
               "ToolTip": "C:\\Users\\pc\\OneDrive\\Desktop\\Work(N)\\GonzStore\\GonzStore\\Views\\Home\\Product.cshtml",
               "RelativeToolTip": "GonzStore\\Views\\Home\\Product.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-17T08:26:28.227Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "bootstrap.bundle.js.map",
               "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Desktop\\Work(N)\\GonzStore\\GonzStore\\Scripts\\bootstrap.bundle.js.map",
               "RelativeDocumentMoniker": "GonzStore\\Scripts\\bootstrap.bundle.js.map",
