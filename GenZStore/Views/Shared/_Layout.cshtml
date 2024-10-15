@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Genz</title>
+    <link rel="stylesheet" href="~/Content/styles.css">
+    <script src="https://kit.fontawesome.com/4abb4ceb6d.js" crossorigin="anonymous"></script>
+
+    @*Bootstraps*@
+
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/styles/banner.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <!-- Your header content goes here -->
+        <div class="logo">
+            <a href="#"><img class="logo-img" src="~/images/Logo.jpg" alt=""></a>
+        </div>
+        <nav>
+            <!-- Your navigation menu -->
+            <ul>
+                <li><a href="#">Trang chủ</a></li>
+                <li><a href="#">Cửa hàng</a></li>
+                <li><a href="#">Liên hệ</a></li>
+            </ul>
+        </nav>
+        <div class="search-container">
+            <input type="text" placeholder="Bạn tìm gì...">
+            <button type="submit"><i class="fas fa-search"></i></button>
+        </div>
+        <a href="@Url.Action("Index","Cart")"><div class="cart-button header-button">
+            <i class="fa-solid fa-cart-plus"></i> Giỏ hàng
+        </div></a>
+
+        @if (Session["Username"] != null)
+        {
+            <!-- Nếu người dùng đã đăng nhập -->
+            <div class="user-info header-button">
+                <span>Hi, @Session["Username"]</span>
+                <a href="@Url.Action("Logout", "Account")">
+                    <button class="logout-button">Đăng xuất</button>
+                </a>
+            </div>
+        }
+        else
+        {
+            <!-- Nếu người dùng chưa đăng nhập -->
+            <a href="@Url.Action("Login", "Account")">
+                <div class="login-button header-button">
+                    <i class="fa-solid fa-arrow-right-to-bracket"></i> Đăng nhập
+                </div>
+            </a>
+        }
+    </header>
+
+    <div class="content">
+        @RenderBody()
+        <!-- This is where the view content will be injected -->
+    </div>
+
+    <footer>
+        <!-- Your footer content goes here -->
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>VỀ GENZ</h3>
+                <ul>
+                    <li><a href="#">Giới thiệu</a></li>
+                    <li><a href="#">Tuyển dụng</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>CHÍNH SÁCH</h3>
+                <ul>
+                    <li><a href="#">Chính sách bảo hành</a></li>
+                    <li><a href="#">Chính sách thanh toán</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>THÔNG TIN</h3>
+                <ul>
+                    <li><a href="#">Hệ thống bán hàng</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>THÔNG TIN LIÊN HỆ</h3>
+                <ul>
+                    <li>Mua hàng: 092564232</li>
+                    <li>Bảo hành: 026321652</li>
+                    <li>Email: <a href="mailto:cskh@genz.com">cskh@genz.com</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>ĐƠN VỊ VẬN CHUYỂN</h3>
+                <ul class="deliveries">
+                    <li><img src="~/images/ft_img1.jpg" alt=""></li>
+                    <li><img src="~/images/ft_img2.png" alt=""></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

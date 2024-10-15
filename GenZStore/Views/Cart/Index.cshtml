@@ -1,0 +1,53 @@
+﻿@model GenZStore.Models.Cart
+
+@{
+    ViewBag.Title = "Giỏ hàng của bạn";
+}
+
+<h2>Giỏ hàng của bạn</h2>
+
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Sản phẩm</th>
+            <th>Giá</th>
+            <th>Số lượng</th>
+            <th>Tổng cộng</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.CartItems)
+        {
+            <tr>
+                <td>                                                 
+                    <img src="@item.Product.image" alt="@item.Product.name" style="width:50px;height:50px;object-fit:cover;" />
+                    @item.Product.name
+                </td>
+                <td>@String.Format("{0:C}", item.Product.price)</td>
+                <td>
+                    @using (Html.BeginForm("UpdateQuantity", "Cart", FormMethod.Post))
+                    {
+                        @Html.Hidden("cartItemId", item.CartItemId)
+                        @Html.TextBox("quantity", item.Quantity, new { type = "number", min = "1", style = "width:60px;" })
+                        <button type="submit" class="btn btn-primary btn-sm">Cập nhật</button>
+                    }
+                </td>
+                <td>@String.Format("{0:C}", item.Product.price * item.Quantity)</td>
+                <td>
+                    @using (Html.BeginForm("RemoveFromCart", "Cart", FormMethod.Post))
+                    {
+                        @Html.Hidden("cartItemId", item.CartItemId)
+                        <button type="submit" class="btn btn-danger btn-sm">Xóa</button>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<h3>Tổng tiền: @String.Format("{0:C}", Model.CartItems.Sum(ci => ci.Product.price * ci.Quantity))</h3>
+<button class="btn btn-success">Thanh toán</button>
+

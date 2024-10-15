@@ -1,0 +1,38 @@
+﻿    @{
+        ViewBag.Title = "Index";
+        Layout = "~/Views/Shared/_Layout.cshtml";
+    }
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>@ViewBag.Title - Genz</title>
+        <link rel="stylesheet" href="~/Content/styles.css">
+        <script src="https://kit.fontawesome.com/4abb4ceb6d.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <h2>Index</h2>
+
+        <table class="table">
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Create at</th>
+                <th>Update at</th>
+                <th></th>
+            </tr>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.id</td>
+                    <a href="~/Views/Categories/Index.cshtml">~/Views/Categories/Index.cshtml</a>
+                    <td>@item.name</td>
+                    <td>@item.description</td>
+                    <td>@item.create_at</td>
+                    <td>@item.update_at</td>
+                </tr>
+            }
+        </table>
+
+    </body>
+        

@@ -1,0 +1,52 @@
+﻿@model GenZStore.Models.Model.LoginModel
+
+@{
+    Layout = null;
+    ViewBag.Title = "Trang Đăng Nhập";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Đăng Nhập</title>
+
+    <link rel="stylesheet" href="~/Content/styles/login.css">
+</head>
+<body>
+    <div class="login-wrapper">
+        <div class="login-image">
+            <img src="~/Content/images/login-background.jpg" alt="Login-image">
+        </div>
+
+        <div class="login-form">
+            <h2>Welcome</h2>
+            <p class="description">Please login here</p>
+            @using (Html.BeginForm("Login", "Account", FormMethod.Post, new { @class = "login-form" }))
+            {
+                @Html.AntiForgeryToken()
+
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Username, "Username")
+                    @Html.TextBoxFor(m => m.Username, new { @placeholder = "Enter your username", @required = "required" })
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(m => m.password, "Password")
+                    @Html.PasswordFor(m => m.password, new { @placeholder = "Password", @required = "required" })
+                </div>
+                <div class="form-group">
+                    <input type="checkbox" id="remember" name="remember">
+                    <label for="remember">Remember Me</label>
+                </div>
+                <div class="form-group">
+                    <a href="@Url.Action("ForgotPassword", "Account")" class="forgot-password-link">Forgot Password?</a>
+                </div>
+                <button type="submit" class="btn">LOG IN</button>
+            }
+
+            <p class="register-link">Don't have an Account? <a href="@Url.Action("Register","Account")">Sign Up</a></p>
+        </div>
+    </div>
+</body>
+</html>

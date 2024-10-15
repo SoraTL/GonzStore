@@ -1,0 +1,58 @@
+﻿@model IEnumerable<GenZStore.Models.Product>
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<main>
+    <body>
+        <link href="~/Content/site.css" rel="stylesheet" type="text/css" />
+        <div class="banner-carousel">
+            <div class="banner-track">
+                <div class="banner-slide">
+                    <img src="~/Content/images/home-banner-1.jpg" alt="Banner 1">
+                </div>
+                <div class="banner-slide">
+                    <img src="~/Content/images/home-banner-2.jpg" alt="Banner 2">
+                </div>
+                <div class="banner-slide">
+                    <img src="~/Content/images/home-banner-3.jpg" alt="Banner 3">
+                </div>
+            </div>
+        </div>
+
+        <div class="products-list">
+            <h2>Sản phẩm bán chạy</h2>
+            <ul>
+                @foreach (var product in Model)
+                {
+                    <li>
+                        <div class="product-image">
+                            <img src="~/Content/images/category-aophong.jpg" alt="Sản phẩm">
+                            <div class="product-overlay">
+                                <i class="fas fa-star"></i>
+
+                                <!-- Form để gọi action AddToCart -->
+                                @using (Html.BeginForm("AddToCart", "Cart", FormMethod.Post))
+                                {
+                                    <!-- Truyền productId của sản phẩm -->
+                                    @Html.Hidden("productId", product.id)
+
+                                    <!-- Nút Add to Cart -->
+                                    <button type="submit" class="add-to-cart">Add to Cart</button>
+                                }
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">@product.name</h3>
+                            <p class="product-price">@product.price</p>
+                        </div>
+                    </li>
+                }
+            </ul>
+
+        </div>
+
+        <script src="~/Scripts/banner.js"></script>
+    </body>
+</main>
